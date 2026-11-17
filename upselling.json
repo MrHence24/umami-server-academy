@@ -1,0 +1,26 @@
+[
+  {
+    "guest": "A guest has ordered ramen and is considering whether to add anything.",
+    "q": "What is the best next step?",
+    "choices": [
+      "Recommend a side without checking what pairs well",
+      "Ask what kind of addition they would enjoy, then offer a confirmed menu option",
+      "Pressure them to add the most expensive item",
+      "Invent a special combination"
+    ],
+    "correct": 1,
+    "why": "A recommendation should fit the guest. The specific menu pairing still needs to be confirmed."
+  },
+  {
+    "guest": "A guest says they are happy with their order and do not want anything else.",
+    "q": "How should you respond?",
+    "choices": [
+      "Respect their decision and continue",
+      "Ask repeatedly until they agree",
+      "Suggest three more items",
+      "Tell them they are missing out"
+    ],
+    "correct": 0,
+    "why": "Good recommendations respect a guest's decision to decline."
+  }
+]
