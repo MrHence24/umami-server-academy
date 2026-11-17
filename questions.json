@@ -1,0 +1,57 @@
+[
+  {
+    "q": "Which preparation is listed on the House of Umami ramen wall chart?",
+    "choices": [
+      "Tokyo Shoyu Ramen",
+      "Dragon Ramen",
+      "Mango Miso Ramen",
+      "Volcano Udon"
+    ],
+    "correct": 0,
+    "why": "Tokyo Shoyu Ramen is one of the eight preparations shown on the employee wall chart."
+  },
+  {
+    "q": "What information does the photographed ramen reference show?",
+    "choices": [
+      "Preparation, toppings, and allergen markings",
+      "Prices and calorie counts",
+      "Server schedules",
+      "Guest reviews"
+    ],
+    "correct": 0,
+    "why": "The chart is organized into Preparation, Toppings, and Allergens."
+  },
+  {
+    "q": "Which item also has its own section on the chart?",
+    "choices": [
+      "Stir Fried Noodles",
+      "Pad Thai",
+      "Tempura Udon",
+      "Poke Burrito"
+    ],
+    "correct": 0,
+    "why": "Stir Fried Noodles is listed on the photographed reference."
+  },
+  {
+    "q": "If you are unsure whether a dish is suitable for a guest with an allergy, what should you do?",
+    "choices": [
+      "Guess based on the dish name",
+      "Say it is probably fine",
+      "Check with the kitchen using restaurant procedures",
+      "Remove one topping and promise it is safe"
+    ],
+    "correct": 2,
+    "why": "Do not guess or promise safety. Verify with the kitchen and follow House of Umami's allergen procedures."
+  },
+  {
+    "q": "Which is a printed allergen category on the chart?",
+    "choices": [
+      "Sesame",
+      "Coconut",
+      "Celery",
+      "Mustard greens"
+    ],
+    "correct": 0,
+    "why": "Sesame is one of the chart's printed allergen categories."
+  }
+]
