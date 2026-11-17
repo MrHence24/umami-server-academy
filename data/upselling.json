@@ -1,26 +1,62 @@
 [
   {
-    "guest": "A guest has ordered ramen and is considering whether to add anything.",
-    "q": "What is the best next step?",
+    "guest": "A guest orders ramen and says they might like something else, but they are not sure what.",
+    "q": "What is the best way to continue?",
     "choices": [
-      "Recommend a side without checking what pairs well",
-      "Ask what kind of addition they would enjoy, then offer a confirmed menu option",
-      "Pressure them to add the most expensive item",
-      "Invent a special combination"
-    ],
-    "correct": 1,
-    "why": "A recommendation should fit the guest. The specific menu pairing still needs to be confirmed."
-  },
-  {
-    "guest": "A guest says they are happy with their order and do not want anything else.",
-    "q": "How should you respond?",
-    "choices": [
-      "Respect their decision and continue",
-      "Ask repeatedly until they agree",
-      "Suggest three more items",
-      "Tell them they are missing out"
+      "Ask what kind of food or experience they are in the mood for, then suggest a verified menu option",
+      "Immediately name the most expensive appetizer",
+      "List several random items until one sounds appealing",
+      "Tell them every ramen order needs a side"
     ],
     "correct": 0,
-    "why": "Good recommendations respect a guest's decision to decline."
+    "why": "Start with the guest's preferences. Then make one relevant recommendation you can accurately describe."
+  },
+  {
+    "guest": "A guest says, “No thanks, I’m good with what I ordered.”",
+    "q": "What should you do?",
+    "choices": [
+      "Respect the decision and move on",
+      "Offer the same item again later",
+      "Tell them they are missing out",
+      "Suggest a more expensive alternative"
+    ],
+    "correct": 0,
+    "why": "A good recommendation is an offer, not pressure. Respecting a decline is part of good service."
+  },
+  {
+    "guest": "A guest says they are trying to keep the meal within a specific budget.",
+    "q": "Which response best supports the guest?",
+    "choices": [
+      "Ignore the budget and recommend a premium item",
+      "Ask what range they have in mind and suggest an appropriate confirmed option",
+      "Tell them the budget is too low",
+      "Add an item without asking"
+    ],
+    "correct": 1,
+    "why": "Treat the budget as a real preference. Offer an option that fits and make the price clear."
+  },
+  {
+    "guest": "A guest asks whether an appetizer contains an allergen. You do not know the full ingredients or preparation details.",
+    "q": "What is the correct response?",
+    "choices": [
+      "Guess from the menu description",
+      "Say it is probably safe",
+      "Pause the recommendation and verify with the kitchen using allergen procedures",
+      "Suggest they try a small amount"
+    ],
+    "correct": 2,
+    "why": "Allergen questions are not upselling opportunities. Accuracy and safety come first; never guess or suggest testing an allergen."
+  },
+  {
+    "guest": "A guest asks what you would pair with their order. You are unsure which combinations the restaurant recommends.",
+    "q": "What should you do?",
+    "choices": [
+      "Invent a pairing that sounds good",
+      "Check the approved recommendations or ask an experienced team member before suggesting an item",
+      "Recommend the most expensive item by default",
+      "Say every item pairs well with everything"
+    ],
+    "correct": 1,
+    "why": "Only recommend pairings you can support with accurate menu knowledge. If unsure, check before presenting it as a recommendation."
   }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "q": "Which preparation is listed on the House of Umami ramen wall chart?",
+    "q": "Which of these is one of the eight ramen preparations on the House of Umami wall chart?",
     "choices": [
       "Tokyo Shoyu Ramen",
       "Dragon Ramen",
@@ -8,50 +8,105 @@
       "Volcano Udon"
     ],
     "correct": 0,
-    "why": "Tokyo Shoyu Ramen is one of the eight preparations shown on the employee wall chart."
+    "why": "Tokyo Shoyu Ramen is explicitly listed on the employee ramen reference. Learn the actual preparation from the chart rather than guessing from the name."
   },
   {
-    "q": "What information does the photographed ramen reference show?",
+    "q": "A guest asks what goes into a ramen they are considering. What is your best source for the documented preparation?",
     "choices": [
-      "Preparation, toppings, and allergen markings",
-      "Prices and calorie counts",
-      "Server schedules",
-      "Guest reviews"
+      "Your memory of a similar dish elsewhere",
+      "The House of Umami ramen preparation and toppings chart",
+      "A guess based on the dish's name",
+      "A third-party delivery description"
+    ],
+    "correct": 1,
+    "why": "Use the restaurant's own preparation reference. If it does not answer the guest's question, verify with the kitchen."
+  },
+  {
+    "q": "Which set contains only preparations listed on the ramen wall chart?",
+    "choices": [
+      "Miso Ramen, Chicken Shio Ramen, Curry Ramen",
+      "Dragon Ramen, Miso Ramen, Chicken Shio Ramen",
+      "Tonkotsu Ramen, Pad Thai, Curry Ramen",
+      "Tokyo Shoyu Ramen, Volcano Udon, Tantanmen Ramen"
     ],
     "correct": 0,
-    "why": "The chart is organized into Preparation, Toppings, and Allergens."
+    "why": "Miso, Chicken Shio, and Curry Ramen are all listed. The other options include items not shown on this reference."
   },
   {
-    "q": "Which item also has its own section on the chart?",
+    "q": "A guest asks whether a dish is safe for a serious sesame allergy. You are not certain what is in the sauce. What should you do?",
+    "choices": [
+      "Say it should be fine if sesame is not visible",
+      "Recommend the dish marked Vegan",
+      "Check the restaurant's allergen reference and verify with the kitchen under procedure",
+      "Suggest they remove the garnish"
+    ],
+    "correct": 2,
+    "why": "Never infer allergen safety from appearance, a dish name, or a dietary label. Verify ingredients and handling with the kitchen and follow restaurant procedures."
+  },
+  {
+    "q": "Which of these appears as an allergen category on the ramen wall chart?",
+    "choices": [
+      "Shellfish",
+      "Coconut",
+      "Mustard",
+      "Celery"
+    ],
+    "correct": 0,
+    "why": "Shellfish is one of the chart's printed allergen categories. The chart also lists Egg, Wheat, Dairy, Soy, Sesame, Seafood, and Nuts."
+  },
+  {
+    "q": "What three kinds of information are organized on the ramen wall chart?",
+    "choices": [
+      "Preparation, toppings, and allergens",
+      "Prices, calories, and spice ratings",
+      "Cooking times, staff names, and table numbers",
+      "Guest reviews, portion sizes, and discounts"
+    ],
+    "correct": 0,
+    "why": "The chart is a practical reference for how the ramen is prepared, its toppings, and its listed allergen markings."
+  },
+  {
+    "q": "A guest asks whether Vegan Ramen is automatically safe for their wheat allergy. What is the accurate response?",
+    "choices": [
+      "Yes, vegan means allergen-free",
+      "Yes, because wheat is not an animal product",
+      "Do not assume; check the documented ingredients and verify with the kitchen",
+      "Tell them to order it without toppings"
+    ],
+    "correct": 2,
+    "why": "Vegan does not mean wheat-free or free from cross-contact. Check the relevant allergen information and kitchen procedures before answering."
+  },
+  {
+    "q": "A guest asks you to compare Miso Ramen and Tokyo Shoyu Ramen, but you cannot recall the approved flavor descriptions. What should you do?",
+    "choices": [
+      "Invent a confident-sounding comparison",
+      "Use the approved menu reference or ask the kitchen, then explain the verified difference",
+      "Tell them all ramen tastes basically the same",
+      "Recommend whichever costs more"
+    ],
+    "correct": 1,
+    "why": "A useful comparison must be accurate. Do not improvise ingredients or flavor claims when you are unsure."
+  },
+  {
+    "q": "Which preparation is listed on the chart alongside the ramen dishes, even though its name is not a ramen variety?",
     "choices": [
       "Stir Fried Noodles",
       "Pad Thai",
       "Tempura Udon",
-      "Poke Burrito"
+      "Poke Bowl"
     ],
     "correct": 0,
-    "why": "Stir Fried Noodles is listed on the photographed reference."
+    "why": "Stir Fried Noodles is included as one of the eight preparations on the employee reference."
   },
   {
-    "q": "If you are unsure whether a dish is suitable for a guest with an allergy, what should you do?",
+    "q": "What is the strongest foundation for recommending a menu item to a guest?",
     "choices": [
-      "Guess based on the dish name",
-      "Say it is probably fine",
-      "Check with the kitchen using restaurant procedures",
-      "Remove one topping and promise it is safe"
+      "Choose the item with the highest price",
+      "Repeat the same recommendation to every table",
+      "Understand what the guest enjoys and match it to a menu item you can describe accurately",
+      "Recommend something even after the guest declines"
     ],
     "correct": 2,
-    "why": "Do not guess or promise safety. Verify with the kitchen and follow House of Umami's allergen procedures."
-  },
-  {
-    "q": "Which is a printed allergen category on the chart?",
-    "choices": [
-      "Sesame",
-      "Coconut",
-      "Celery",
-      "Mustard greens"
-    ],
-    "correct": 0,
-    "why": "Sesame is one of the chart's printed allergen categories."
+    "why": "Good recommendations are relevant, informed, and guest-centered. Respect a decline and never invent details."
   }
 ]
