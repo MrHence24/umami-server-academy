@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#a51f2b">
+<title>Umami Server Academy</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="shell">
+<header class="topbar">
+  <div class="brand"><b>旨 HOUSE OF <em>UMAMI</em></b><small>RAMEN · SUSHI · SPIRITS</small></div>
+  <div class="header-tools">
+    <div class="player">SERVER TRAINEE · LV <span id="level">01</span> · <span id="xp">000</span> XP</div>
+    <button id="musicToggle" class="music-toggle" aria-pressed="false">♫ MUSIC: OFF</button>
+  </div>
+</header>
+<main id="app">
+<section class="hero">
+  <div>
+    <small class="eyebrow">YOUR MENU KNOWLEDGE QUEST BEGINS</small>
+    <h1>UMAMI<br><span>SERVER ACADEMY</span></h1>
+    <p>Learn the menu. Understand the guest. Make the right recommendation.</p>
+    <button data-screen="academy">ENTER ACADEMY ▶</button>
+    <button class="alt" data-screen="battles">GUEST BATTLES</button>
+  </div>
+  <div class="art">
+    <div class="sun"></div><div class="bowl"><div class="soup">旨　●　●</div><div class="base"></div></div>
+    <b class="arttag">RAMEN QUEST<br>STARTER MODULE</b>
+  </div>
+</section>
+<section class="cards">
+  <button class="card" data-screen="academy"><strong>▣ TRAINING ACADEMY</strong><p>Build menu knowledge through lessons and challenges.</p><small>START TRAINING ↗</small></button>
+  <button class="card" data-screen="battles"><strong>⚔ GUEST BATTLES</strong><p>Practice choosing the right response for different guests.</p><small>ENTER ENCOUNTER ↗</small></button>
+  <button class="card" data-screen="scores"><strong>★ HIGH SCORES</strong><p>Track local demo progress and personal best.</p><small>VIEW RECORD ↗</small></button>
+</section>
+<footer>PROTOTYPE 0.2 · ORIGINAL CHIPTUNE · MENU KNOWLEDGE + RECOMMENDATIONS · LOCAL DEMO SCORES</footer>
+</main>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
