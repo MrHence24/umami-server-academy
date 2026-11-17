@@ -1,112 +1,112 @@
 [
   {
-    "q": "Which of these is one of the eight ramen preparations on the House of Umami wall chart?",
+    "q": "What is inside the Crispy Rangoon?",
     "choices": [
-      "Tokyo Shoyu Ramen",
-      "Dragon Ramen",
-      "Mango Miso Ramen",
-      "Volcano Udon"
-    ],
-    "correct": 0,
-    "why": "Tokyo Shoyu Ramen is explicitly listed on the employee ramen reference. Learn the actual preparation from the chart rather than guessing from the name."
-  },
-  {
-    "q": "A guest asks what goes into a ramen they are considering. What is your best source for the documented preparation?",
-    "choices": [
-      "Your memory of a similar dish elsewhere",
-      "The House of Umami ramen preparation and toppings chart",
-      "A guess based on the dish's name",
-      "A third-party delivery description"
+      "Shrimp and ricotta",
+      "Krab meat and cream cheese",
+      "Crab and mascarpone",
+      "Smoked salmon and cream cheese"
     ],
     "correct": 1,
-    "why": "Use the restaurant's own preparation reference. If it does not answer the guest's question, verify with the kitchen."
+    "why": "The Crispy Rangoon is a hand-folded wonton filled with a creamy blend of krab meat and cream cheese, served with sweet chili sauce."
   },
   {
-    "q": "Which set contains only preparations listed on the ramen wall chart?",
+    "q": "Which noodle dish is served with no broth?",
     "choices": [
-      "Miso Ramen, Chicken Shio Ramen, Curry Ramen",
-      "Dragon Ramen, Miso Ramen, Chicken Shio Ramen",
-      "Tonkotsu Ramen, Pad Thai, Curry Ramen",
-      "Tokyo Shoyu Ramen, Volcano Udon, Tantanmen Ramen"
-    ],
-    "correct": 0,
-    "why": "Miso, Chicken Shio, and Curry Ramen are all listed. The other options include items not shown on this reference."
-  },
-  {
-    "q": "A guest asks whether a dish is safe for a serious sesame allergy. You are not certain what is in the sauce. What should you do?",
-    "choices": [
-      "Say it should be fine if sesame is not visible",
-      "Recommend the dish marked Vegan",
-      "Check the restaurant's allergen reference and verify with the kitchen under procedure",
-      "Suggest they remove the garnish"
+      "Tantanmen",
+      "Miso Ramen",
+      "Stir-Fried Noodles",
+      "Curry Ramen"
     ],
     "correct": 2,
-    "why": "Never infer allergen safety from appearance, a dish name, or a dietary label. Verify ingredients and handling with the kitchen and follow restaurant procedures."
+    "why": "Stir-Fried Noodles (chicken, beef, veggies, and soba noodles) are served with no broth, unlike the ramen dishes."
   },
   {
-    "q": "Which of these appears as an allergen category on the ramen wall chart?",
+    "q": "A guest wants a vegan ramen. Which one features tofu chashu?",
     "choices": [
-      "Shellfish",
-      "Coconut",
-      "Mustard",
-      "Celery"
+      "Vegan Ramen",
+      "Curry Ramen",
+      "Miso Ramen",
+      "Chicken Shio Ramen"
     ],
     "correct": 0,
-    "why": "Shellfish is one of the chart's printed allergen categories. The chart also lists Egg, Wheat, Dairy, Soy, Sesame, Seafood, and Nuts."
+    "why": "Vegan Ramen is topped with tofu chashu, scallions, shiitake mushrooms, bok choy, crispy onion, and nori. Curry Ramen uses fried tofu, while Miso and Chicken Shio use meat or egg."
   },
   {
-    "q": "What three kinds of information are organized on the ramen wall chart?",
+    "q": "Which ramen is topped with naruto?",
     "choices": [
-      "Preparation, toppings, and allergens",
-      "Prices, calories, and spice ratings",
-      "Cooking times, staff names, and table numbers",
-      "Guest reviews, portion sizes, and discounts"
+      "Tonkotsu Ramen",
+      "Tantanmen",
+      "Miso Ramen",
+      "Tokyo Shoyu Ramen"
     ],
-    "correct": 0,
-    "why": "The chart is a practical reference for how the ramen is prepared, its toppings, and its listed allergen markings."
+    "correct": 3,
+    "why": "Tokyo Shoyu Ramen comes with chashu, molten egg, seasoned bamboo shoots, spinach, scallions, nori, and naruto."
   },
   {
-    "q": "A guest asks whether Vegan Ramen is automatically safe for their wheat allergy. What is the accurate response?",
+    "q": "Which classic roll is made with asparagus, avocado, and cucumber?",
     "choices": [
-      "Yes, vegan means allergen-free",
-      "Yes, because wheat is not an animal product",
-      "Do not assume; check the documented ingredients and verify with the kitchen",
-      "Tell them to order it without toppings"
-    ],
-    "correct": 2,
-    "why": "Vegan does not mean wheat-free or free from cross-contact. Check the relevant allergen information and kitchen procedures before answering."
-  },
-  {
-    "q": "A guest asks you to compare Miso Ramen and Tokyo Shoyu Ramen, but you cannot recall the approved flavor descriptions. What should you do?",
-    "choices": [
-      "Invent a confident-sounding comparison",
-      "Use the approved menu reference or ask the kitchen, then explain the verified difference",
-      "Tell them all ramen tastes basically the same",
-      "Recommend whichever costs more"
+      "California",
+      "Evergreen",
+      "Alaska",
+      "Philadelphia"
     ],
     "correct": 1,
-    "why": "A useful comparison must be accurate. Do not improvise ingredients or flavor claims when you are unsure."
+    "why": "The Evergreen is the vegetarian classic roll with asparagus, avocado, and cucumber. California and Alaska contain crab and smoked salmon respectively."
   },
   {
-    "q": "Which preparation is listed on the chart alongside the ramen dishes, even though its name is not a ramen variety?",
+    "q": "Which classic roll contains smoked salmon, cream cheese, and avocado?",
     "choices": [
-      "Stir Fried Noodles",
-      "Pad Thai",
-      "Tempura Udon",
-      "Poke Bowl"
-    ],
-    "correct": 0,
-    "why": "Stir Fried Noodles is included as one of the eight preparations on the employee reference."
-  },
-  {
-    "q": "What is the strongest foundation for recommending a menu item to a guest?",
-    "choices": [
-      "Choose the item with the highest price",
-      "Repeat the same recommendation to every table",
-      "Understand what the guest enjoys and match it to a menu item you can describe accurately",
-      "Recommend something even after the guest declines"
+      "Alaska",
+      "Spicy Salmon",
+      "Philadelphia",
+      "Evergreen"
     ],
     "correct": 2,
-    "why": "Good recommendations are relevant, informed, and guest-centered. Respect a decline and never invent details."
+    "why": "The Philadelphia roll is smoked salmon, cream cheese, and avocado. The Alaska is similar but uses cucumber instead of cream cheese."
+  },
+  {
+    "q": "What is the Tiger Eye roll wrapped in before it is deep fried?",
+    "choices": [
+      "Soy paper",
+      "Nori",
+      "Rice paper",
+      "Tofu skin"
+    ],
+    "correct": 0,
+    "why": "The Tiger Eye (smoked salmon, cream cheese, shrimp, jalapeno) uses soy paper, then is deep fried and topped with spicy mayo and eel sauce."
+  },
+  {
+    "q": "Which appetizer is tossed in cumin seasoning and finished with lemon juice?",
+    "choices": [
+      "Edamame",
+      "Avocado Bombs",
+      "Bang Bang Chicken",
+      "Roasted Shishito Peppers"
+    ],
+    "correct": 3,
+    "why": "Roasted Shishito Peppers are pan-fried and tossed in cumin seasoning, olive oil, salt, and pepper, then topped with sweet lemon juice."
+  },
+  {
+    "q": "What is on top of the Rainbow roll?",
+    "choices": [
+      "Eel, avocado, and spicy mayo",
+      "Tuna, salmon, avocado, and shrimp",
+      "Tempura flakes and spicy tuna",
+      "Smoked salmon and cream cheese"
+    ],
+    "correct": 1,
+    "why": "The Rainbow has crab, avocado, and cucumber inside, topped with tuna, salmon, avocado, and shrimp."
+  },
+  {
+    "q": "Which hot bowl is served over steamed white rice instead of fried rice?",
+    "choices": [
+      "Teriyaki Bowl",
+      "Chashu Bowl",
+      "Unadon Bowl",
+      "Ahi Tuna Bowl"
+    ],
+    "correct": 2,
+    "why": "The Unadon Bowl has caramelized teriyaki-style eel over steamed white rice. The Teriyaki and Chashu bowls use fried rice, and the Ahi Tuna Bowl is a cold bowl."
   }
 ]
